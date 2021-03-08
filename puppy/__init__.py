@@ -18,7 +18,7 @@ def p5js(line, src):
 def matterjs(line, src):
   #処理して、JS変換して
   return HTML(f"""
-  <canvas id="canvas" touch-action="none" width="1280px" height="720px"></canvas>
+  <canvas id="canvas" touch-action="none" width="800px" height="600px"></canvas>
   <script src="/nbextensions/google.colab/matter.js"></script>
   <script src="https://markknol.github.io/console-log-viewer/console-log-viewer.js?closed=true"></script>
   <script>
